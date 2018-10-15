@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.269314">
+<testcase classname="Automated End to End Tests" name="Customer place an order by purchasing an item from search" time="7.269314">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is on Home Page..................................................passed
+When he search for “dress”..................................................undefined
+And choose to buy the first item............................................skipped
+And moves to checkout from mini cart........................................skipped
+And enter personal details on checkout page.................................skipped
+And select same delivery address............................................skipped
+And select payment method as “check” payment................................undefined
+And place the order.........................................................skipped
+]]></failure>
+</testcase>
+</testsuite>

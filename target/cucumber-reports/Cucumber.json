@@ -1,0 +1,108 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Customer place an order by purchasing an item from search",
+        "description": "",
+        "id": "automated-end-to-end-tests;customer-place-an-order-by-purchasing-an-item-from-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7250157781,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Home Page",
+            "match": {
+              "location": "Steps.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "he search for “dress”",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "choose to buy the first item",
+            "match": {
+              "location": "Steps.choose_to_buy_the_first_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "moves to checkout from mini cart",
+            "match": {
+              "location": "Steps.moves_to_checkout_from_mini_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "enter personal details on checkout page",
+            "match": {
+              "location": "Steps.enter_personal_details_on_checkout_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "select same delivery address",
+            "match": {
+              "location": "Steps.select_same_delivery_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "select payment method as “check” payment",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "place the order",
+            "match": {
+              "location": "Steps.place_the_order()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Automated End to End Tests",
+    "description": "Description: The purpose of this feature is to test End to End integration",
+    "id": "automated-end-to-end-tests",
+    "keyword": "Feature",
+    "uri": "functionalTests/End2End_Tests.feature",
+    "tags": []
+  }
+]
